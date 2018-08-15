@@ -1,0 +1,19 @@
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+button {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border: 2px solid black;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+}
