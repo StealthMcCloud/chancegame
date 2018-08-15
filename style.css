@@ -1,3 +1,7 @@
+body {
+    background-color: tan;
+}
+
 h1 {
     text-align: center;
 }
@@ -7,13 +11,32 @@ h2 {
 }
 
 button {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
     border: 2px solid black;
-    width: 100px;
-    height: 100px;
+    font-size: 150%;
+    width: 25%;
+    height: 150px;
     background-color: red;
     color: white;
     border-radius: 10px;
+    margin-left: 25px;
+}
+
+img {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 50%;
+   height: 50%;
+}
+
+.responsiveResult {
+    font-family: 'Comic Sans MS', cursive, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    font-size: 200%;
+}
+
+.centering {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
 }
